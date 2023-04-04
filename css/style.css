@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/btn-blue.css");
+
+@import	url("components/banner.css");
+
+@import	url("components/card.css");
+
+@import	url("components/menu.css");
+
+body {
+	font-family: "Lora", serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+
+
+.works{
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 5px;
+padding: 20px 50px;
+margin-bottom: 100px;
+
+}
+
+.works p{
+text-align: left;
+}
+
+.app img{
+width: 150px;
+}
+
+.app1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 100px
+}
+.app1 img{
+	width: 250px;
+}
+
+.tutor{
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px 50px;
+	margin-bottom: 100px;
+}
+
+.tutor p{
+	text-align: center;
+}
+
+.tutor{
+	margin-bottom: 100px
+}
+
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	
+}
+
+.about ul li {
+	margin: 20px 20px;
+
+}
+.about ul li img{
+	width: 150px;
+	border-radius: 50%;
+}
+
+.about{
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 5px;
+padding: 20px 50px;
+margin-bottom: 100px;
+}
